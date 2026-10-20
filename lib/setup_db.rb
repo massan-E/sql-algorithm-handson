@@ -1,7 +1,7 @@
 require_relative "handson"
 require "benchmark"
 
-SCALES = { "1m" => 1_000_000, "10m" => 10_000_000, "30m" => 30_000_000 }.freeze
+SCALES = { "1m" => 1_000_000, "10m" => 10_000_000 }.freeze
 total = SCALES.fetch(ENV.fetch("SCALE", "1m")) do |key|
   abort "SCALE は #{SCALES.keys.join(' / ')} のどれかを指定してください（指定された値: #{key}）"
 end

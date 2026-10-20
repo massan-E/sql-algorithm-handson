@@ -4,7 +4,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: handson
-    command: --innodb-buffer-pool-size=512M
+    command: --innodb-buffer-pool-size=${DB_BUFFER_POOL_SIZE:-512M}
     volumes:
       - db-data:/var/lib/mysql
     healthcheck:
