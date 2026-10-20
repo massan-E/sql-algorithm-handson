@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+key="${1:-}"
+if [ -z "$key" ]; then
+  echo "使い方: bin/try <お題の番号>   例: bin/try 02"
+  exit 1
+fi
+
+exercise_dir="$(find exercises -mindepth 1 -maxdepth 1 -type d -name "${key}*" | sort | head -n 1)"
+if [ -z "$exercise_dir" ]; then
+  echo "お題 ${key} が見つかりません（exercises/ の中を確認してください）"
+  exit 1
+fi
+
+name="$(basename "$exercise_dir")"
+my_dir="my_code/${name}"
+mkdir -p "$my_dir"
+
+latest="$(find "$my_dir" -maxdepth 1 -name '[0-9][0-9].rb' | sort | tail -n 1)"
+if [ -n "$latest" ]; then
+  next=$(( 10#$(basename "$latest" .rb) + 1 ))
+  source_file="$latest"
+else
+  next=1
+  source_file="${exercise_dir}/baseline.rb"
+fi
+
+new_file="${my_dir}/$(printf '%02d' "$next").rb"
+cp "$source_file" "$new_file"
+
+echo "${new_file} を作りました（${source_file} のコピーです）。"
+echo "書き換えたら bin/run ${key} で計測できます。前のファイルはそのまま残ります。"

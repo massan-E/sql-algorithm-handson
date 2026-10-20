@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+git fetch --quiet origin answers 2>/dev/null || true
+
+if git rev-parse --verify --quiet origin/answers >/dev/null; then
+  source_ref="origin/answers"
+elif git rev-parse --verify --quiet answers >/dev/null; then
+  source_ref="answers"
+else
+  echo "answers ブランチが見つかりませんでした。"
+  echo "GitHub 上でブランチを answers に切り替えて、answers/ フォルダを見てください。"
+  exit 1
+fi
+
+git restore --source="$source_ref" -- answers
+echo "answers/ に解答を取り出しました（今いるブランチや自分のコードはそのままです）。"
+echo "bin/run <お題の番号> を実行すると、解答も一緒に計測されます。"
