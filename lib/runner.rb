@@ -46,8 +46,12 @@ def run_candidate(candidate, exercise)
   main, *edge_cases = exercise.fetch(:cases)
 
   value = sqls = nil
+  GC.start
   times = [Benchmark.realtime { value, sqls = capture_sql { solver.solve(*main[:args]) } }]
-  times << Benchmark.realtime { solver.solve(*main[:args]) } while times.size < MAX_RUNS && times.sum < TIME_BUDGET
+  while times.size < MAX_RUNS && times.sum < TIME_BUDGET
+    GC.start
+    times << Benchmark.realtime { solver.solve(*main[:args]) }
+  end
 
   problems = []
   if (reason = judge(main[:check], value))
@@ -61,7 +65,7 @@ def run_candidate(candidate, exercise)
     problems << "#{c[:label]}: #{e.class}"
   end
 
-  Result.new(label: candidate.label, time: times.sort[times.size / 2], worst: times.max, queries: sqls.size, sqls: sqls,
+  Result.new(label: candidate.label, time: times.sort[(times.size - 1) / 2], worst: times.max, queries: sqls.size, sqls: sqls,
              status: problems.empty? ? "OK" : "NG", error: problems.join(" / ").then { |s| s.empty? ? nil : s })
 rescue StandardError, ScriptError => e
   Result.new(label: candidate.label, status: "ERROR", error: "#{e.class}: #{e.message.lines.first&.strip}")
