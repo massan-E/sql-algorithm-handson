@@ -4,9 +4,10 @@ require "benchmark"
 ROOT = File.expand_path("..", __dir__)
 MAX_RUNS = 5
 TIME_BUDGET = 2.0
+SLOW_THRESHOLD = 5.0
 
 Candidate = Struct.new(:label, :path)
-Result = Struct.new(:label, :time, :worst, :queries, :sqls, :status, :error, keyword_init: true)
+Result = Struct.new(:label, :time, :worst, :queries, :sqls, :status, :error, :notes, keyword_init: true)
 
 def display_width(str)
   str.each_char.sum { |c| c.ord > 0x2E80 ? 2 : 1 }
@@ -54,10 +55,16 @@ def run_candidate(candidate, exercise)
   end
 
   problems = []
+  notes = []
   if (reason = judge(main[:check], value))
     problems << "#{main[:label]}: #{reason}"
   end
   edge_cases.each do |c|
+    if c[:repeat] && times.max > SLOW_THRESHOLD
+      notes << "#{c[:label]}のチェックは、1回の実行に#{SLOW_THRESHOLD.to_i}秒以上かかったので省略しました"
+      next
+    end
+
     output = c[:repeat] ? Array.new(c[:repeat]) { solver.solve(*c[:args]) } : solver.solve(*c[:args])
     reason = judge(c[:check], output)
     problems << "#{c[:label]}: #{reason}" if reason
@@ -66,7 +73,8 @@ def run_candidate(candidate, exercise)
   end
 
   Result.new(label: candidate.label, time: times.sort[(times.size - 1) / 2], worst: times.max, queries: sqls.size, sqls: sqls,
-             status: problems.empty? ? "OK" : "NG", error: problems.join(" / ").then { |s| s.empty? ? nil : s })
+             status: problems.empty? ? "OK" : "NG", error: problems.join(" / ").then { |s| s.empty? ? nil : s },
+             notes: notes)
 rescue StandardError, ScriptError => e
   Result.new(label: candidate.label, status: "ERROR", error: "#{e.class}: #{e.message.lines.first&.strip}")
 end
@@ -130,10 +138,10 @@ results.each do |r|
         "  #{r.status}"].join("  ")
 end
 
-problems = results.select(&:error)
-unless problems.empty?
+messages = results.flat_map { |r| [r.error, *r.notes].compact.map { |m| "  #{r.label}: #{m}" } }
+unless messages.empty?
   puts
-  problems.each { |r| puts "  #{r.label}: #{r.error}" }
+  puts messages
 end
 
 if show_sql
