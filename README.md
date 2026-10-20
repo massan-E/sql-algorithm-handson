@@ -7,7 +7,7 @@ ActiveRecord や AI が書いてくれるコードを「なんか遅そう」と
 
 ## 必要なもの
 
-- Docker Desktop（起動しておいてください）
+- Docker Desktop（起動しておいてください。Settings > Resources の Memory は 4GB 以上）
 - git
 
 Ruby や MySQL を自分の PC に入れる必要はありません。すべて Docker の中で動きます。
