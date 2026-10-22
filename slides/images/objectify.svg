@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 180" width="1100" height="180">
+<rect x="40" y="40" width="245.05882352941177" height="64" rx="4" fill="#6fb3e0" stroke="none" stroke-width="2"/>
+<rect x="287.05882352941177" y="40" width="752.9411764705883" height="64" rx="4" fill="#fc7400" stroke="none" stroke-width="2"/>
+<text x="163.52941176470588" y="82" font-size="22" fill="#12121a" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">約210 ms</text>
+<text x="663.5294117647059" y="82" font-size="24" fill="#12121a" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">約640 ms</text>
+<text x="163.52941176470588" y="140" font-size="21" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">DBから取ってくる</text>
+<text x="663.5294117647059" y="140" font-size="21" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">10万個のオブジェクトにする</text>
+</svg>

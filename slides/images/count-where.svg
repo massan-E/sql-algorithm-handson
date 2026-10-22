@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 330" width="1100" height="330">
+<text x="330" y="30" font-size="22" fill="#6fb3e0" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">DB</text>
+<text x="800" y="30" font-size="22" fill="#6fb3e0" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">Ruby</text>
+<line x1="560" y1="10" x2="560" y2="320" stroke="#8b8ba0" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="10" y="100" font-size="20" fill="#f2ece5" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">select { }.size</text>
+<rect x="240" y="70" width="180" height="50" rx="10" fill="#1a1a24" stroke="#6fb3e0" stroke-width="2"/>
+<text x="330" y="103" font-size="18" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">取り出すだけ</text>
+<line x1="425" y1="95" x2="624.0" y2="95.0" stroke="#f7768e" stroke-width="12" stroke-linecap="round"/>
+<polygon points="640.0,95.0 624.0,86.0 624.0,104.0" fill="#f7768e"/>
+<text x="530" y="65" font-size="18" fill="#f7768e" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">10万行</text>
+<rect x="650" y="70" width="250" height="50" rx="10" fill="#1a1a24" stroke="#f7768e" stroke-width="2"/>
+<text x="775" y="103" font-size="18" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">絞る → 数える</text>
+<text x="1090" y="103" font-size="22" fill="#f7768e" text-anchor="end" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">876 ms</text>
+<text x="10" y="190" font-size="20" fill="#f2ece5" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">where().length</text>
+<rect x="240" y="160" width="180" height="50" rx="10" fill="#1a1a24" stroke="#6fb3e0" stroke-width="2"/>
+<text x="330" y="193" font-size="18" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">絞る</text>
+<line x1="425" y1="185" x2="624.0" y2="185.0" stroke="#f3a447" stroke-width="7" stroke-linecap="round"/>
+<polygon points="640.0,185.0 624.0,176.0 624.0,194.0" fill="#f3a447"/>
+<text x="530" y="155" font-size="18" fill="#f3a447" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">未読の行ぜんぶ</text>
+<rect x="650" y="160" width="250" height="50" rx="10" fill="#1a1a24" stroke="#f3a447" stroke-width="2"/>
+<text x="775" y="193" font-size="18" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">数える</text>
+<text x="1090" y="193" font-size="22" fill="#f3a447" text-anchor="end" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">212 ms</text>
+<text x="10" y="280" font-size="20" fill="#f2ece5" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">where().count</text>
+<rect x="240" y="250" width="180" height="50" rx="10" fill="#1a1a24" stroke="#6fb3e0" stroke-width="2"/>
+<text x="330" y="283" font-size="18" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">絞る → 数える</text>
+<line x1="425" y1="275" x2="624.0" y2="275.0" stroke="#9ece6a" stroke-width="3" stroke-linecap="round"/>
+<polygon points="640.0,275.0 624.0,266.0 624.0,284.0" fill="#9ece6a"/>
+<text x="530" y="245" font-size="18" fill="#9ece6a" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">数字1つ</text>
+<rect x="650" y="250" width="250" height="50" rx="10" fill="#1a1a24" stroke="#9ece6a" stroke-width="2"/>
+<text x="775" y="283" font-size="18" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">受け取るだけ</text>
+<text x="1090" y="283" font-size="22" fill="#9ece6a" text-anchor="end" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">56 ms</text>
+</svg>

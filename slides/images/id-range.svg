@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 240" width="1100" height="240">
+<line x1="60" y1="110" x2="1040" y2="110" stroke="#8b8ba0" stroke-width="3"/>
+<circle cx="60" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="110" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="150" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="260" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="300" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="420" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="520" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="560" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="700" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="760" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="880" cy="110" r="11" fill="#6fb3e0"/>
+<circle cx="1040" cy="110" r="11" fill="#6fb3e0"/>
+<text x="60" y="160" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">MIN(id)</text>
+<text x="1040" y="160" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">MAX(id)</text>
+<line x1="610" y1="55" x2="610" y2="130" stroke="#f3a447" stroke-width="3" stroke-dasharray="6 5"/>
+<text x="610" y="45" font-size="20" fill="#f3a447" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">rand(MIN..MAX)</text>
+<line x1="610" y1="90" x2="676.0" y2="90.0" stroke="#fc7400" stroke-width="3" stroke-linecap="round"/>
+<polygon points="692.0,90.0 676.0,81.0 676.0,99.0" fill="#fc7400"/>
+<circle cx="700" cy="110" r="15" fill="none" stroke="#fc7400" stroke-width="4"/>
+<text x="700" y="160" font-size="20" fill="#fc7400" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">これを1件取る</text>
+<text x="550" y="225" font-size="21" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">「乱数以上で一番小さい id」は、インデックスを引くだけで見つかる</text>
+</svg>

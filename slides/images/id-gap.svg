@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 240" width="1100" height="240">
+<line x1="40" y1="100" x2="1060" y2="100" stroke="#8b8ba0" stroke-width="3"/>
+<circle cx="40.0" cy="100" r="12" fill="#6fb3e0"/>
+<circle cx="50.3" cy="100" r="12" fill="#6fb3e0"/>
+<circle cx="60.6" cy="100" r="12" fill="#6fb3e0"/>
+<circle cx="1060.0" cy="100" r="12" fill="#6fb3e0"/>
+<text x="50.303030303030305" y="148" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">1, 2, 3</text>
+<text x="1060.0" y="148" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">100</text>
+<circle cx="70.9" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="101.8" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="132.7" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="163.6" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="194.5" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="225.5" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="256.4" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="287.3" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="318.2" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="349.1" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="380.0" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="410.9" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="441.8" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="472.7" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="503.6" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="534.5" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="565.5" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="596.4" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="627.3" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="658.2" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="689.1" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="720.0" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="750.9" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="781.8" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="812.7" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="843.6" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="874.5" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="905.5" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="936.4" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="967.3" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="998.2" cy="100" r="5" fill="#4a4a5e"/>
+<circle cx="1029.1" cy="100" r="5" fill="#4a4a5e"/>
+<rect x="62.90909090909091" y="40" width="1005.0909090909091" height="34" rx="8" fill="none" stroke="#f3a447" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="565.4545454545455" y="28" font-size="20" fill="#f3a447" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">乱数がこの範囲（4〜100）のどこに出ても……</text>
+<text x="544.8484848484848" y="148" font-size="20" fill="#8b8ba0" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">4〜99 は他の掲示板のコメント</text>
+<text x="980" y="192" font-size="22" fill="#fc7400" text-anchor="end" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">ぜんぶ id 100 になる</text>
+<text x="40" y="192" font-size="20" fill="#8b8ba0" text-anchor="start" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">1〜3 が選ばれるのは まれ</text>
+</svg>

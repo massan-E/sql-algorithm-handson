@@ -5,6 +5,16 @@
 
 ActiveRecord や AI が書いてくれるコードを「なんか遅そう」と感じて、確かめて、直せるようになることがゴールです。
 
+## 当日の資料
+
+イベント「そのコード、本当に速いですか？」で使ったスライドはこちらです。
+
+**[slides/slides.pdf](slides/slides.pdf)**
+
+計算量（ビッグオー記法）や ActiveRecord の仕組み、各お題の解説、代表的なアルゴリズムの一覧が入っています。復習や、あとで調べるときに使ってください。
+
+元ファイル（[Marp](https://marp.app/) 形式）は `slides/slides.md` です。
+
 ## 必要なもの
 
 - Docker Desktop（起動しておいてください。Settings > Resources の Memory は 4GB 以上）
