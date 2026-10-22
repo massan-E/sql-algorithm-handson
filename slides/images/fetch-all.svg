@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300">
+<path d="M20,56 v168 a100.0,16 0 0 0 200,0 v-168" fill="#1a1a24" stroke="#6fb3e0" stroke-width="3"/>
+<ellipse cx="120.0" cy="56" rx="100.0" ry="16" fill="#1a1a24" stroke="#6fb3e0" stroke-width="3"/>
+<text x="120.0" y="152.0" font-size="24" fill="#f2ece5" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">DB</text>
+<text x="120.0" y="184.0" font-size="19" fill="#8b8ba0" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">comments 10万件</text>
+<line x1="240" y1="140" x2="404.0" y2="140.0" stroke="#fc7400" stroke-width="4" stroke-linecap="round"/>
+<polygon points="420.0,140.0 404.0,131.0 404.0,149.0" fill="#fc7400"/>
+<text x="330" y="115" font-size="22" fill="#f3a447" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">10万件ぜんぶ</text>
+<text x="330" y="180" font-size="20" fill="#8b8ba0" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">SELECT *</text>
+<rect x="440" y="30" width="380" height="230" rx="10" fill="#1a1a24" stroke="#3a3a52" stroke-width="2"/>
+<text x="630" y="66" font-size="22" fill="#8b8ba0" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">Ruby（アプリ側）</text>
+<rect x="470" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="498" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="526" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="554" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="582" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="610" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="638" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="666" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="694" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="722" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="750" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="778" y="90" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="470" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="498" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="526" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="554" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="582" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="610" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="638" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="666" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="694" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="722" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="750" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="778" y="116" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="470" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="498" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="526" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="554" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="582" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="610" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="638" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="666" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="694" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="722" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="750" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="778" y="142" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="470" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="498" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="526" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="554" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="582" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="610" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="638" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="666" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="694" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="722" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="750" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="778" y="168" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="470" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="498" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="526" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="554" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="582" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="610" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="638" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="666" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="694" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="722" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="750" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="778" y="194" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="470" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="498" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="526" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="554" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="582" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="610" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="638" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="666" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="694" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="722" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="750" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<rect x="778" y="220" width="20" height="18" rx="3" fill="#264E77" stroke="none" stroke-width="2"/>
+<text x="630" y="280" font-size="20" fill="#8b8ba0" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">10万個の Comment オブジェクト</text>
+<line x1="840" y1="140" x2="914.0" y2="140.0" stroke="#fc7400" stroke-width="4" stroke-linecap="round"/>
+<polygon points="930.0,140.0 914.0,131.0 914.0,149.0" fill="#fc7400"/>
+<text x="885" y="115" font-size="20" fill="#f3a447" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">.sample</text>
+<rect x="950" y="110" width="40" height="40" rx="5" fill="#fc7400" stroke="none" stroke-width="2"/>
+<text x="970" y="190" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">使うのは</text>
+<text x="970" y="218" font-size="22" fill="#fc7400" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">1件だけ</text>
+</svg>

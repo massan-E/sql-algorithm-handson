@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" width="1100" height="400">
+<text x="150" y="30" font-size="20" fill="#8b8ba0" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">書いた順番</text>
+<rect x="10" y="60" width="280" height="56" rx="10" fill="#1a1a24" stroke="#3a3a52" stroke-width="2"/>
+<text x="150" y="97" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">.limit(1)</text>
+<rect x="10" y="150" width="280" height="56" rx="10" fill="#1a1a24" stroke="#3a3a52" stroke-width="2"/>
+<text x="150" y="187" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">.where(board_id: 2)</text>
+<rect x="10" y="240" width="280" height="56" rx="10" fill="#1a1a24" stroke="#3a3a52" stroke-width="2"/>
+<text x="150" y="277" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">.order(:id)</text>
+<rect x="400" y="10" width="360" height="380" rx="6" fill="#f2ece5" stroke="#c8bfb3" stroke-width="2"/>
+<text x="580" y="52" font-size="28" fill="#12121a" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">注 文 票</text>
+<line x1="420" y1="70" x2="740" y2="70" stroke="#12121a" stroke-width="2"/>
+<text x="425" y="126" font-size="20" fill="#555" text-anchor="start" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">テーブル</text>
+<rect x="530" y="96" width="215" height="46" rx="4" fill="#ffffff" stroke="#c8bfb3" stroke-width="2"/>
+<text x="545" y="128" font-size="19" fill="#12121a" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">comments</text>
+<text x="425" y="196" font-size="20" fill="#555" text-anchor="start" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">条件</text>
+<rect x="530" y="166" width="215" height="46" rx="4" fill="#ffffff" stroke="#c8bfb3" stroke-width="2"/>
+<text x="545" y="198" font-size="19" fill="#12121a" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">board_id = 2</text>
+<text x="425" y="266" font-size="20" fill="#555" text-anchor="start" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">並び順</text>
+<rect x="530" y="236" width="215" height="46" rx="4" fill="#ffffff" stroke="#c8bfb3" stroke-width="2"/>
+<text x="545" y="268" font-size="19" fill="#12121a" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">id</text>
+<text x="425" y="336" font-size="20" fill="#555" text-anchor="start" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">件数</text>
+<rect x="530" y="306" width="215" height="46" rx="4" fill="#ffffff" stroke="#c8bfb3" stroke-width="2"/>
+<text x="545" y="338" font-size="19" fill="#12121a" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">1</text>
+<line x1="295" y1="88" x2="407.8" y2="313.7" stroke="#f3a447" stroke-width="3" stroke-linecap="round"/>
+<polygon points="415.0,328.0 415.9,309.7 399.8,317.7" fill="#f3a447"/>
+<line x1="295" y1="178" x2="399.1" y2="186.7" stroke="#f3a447" stroke-width="3" stroke-linecap="round"/>
+<polygon points="415.0,188.0 399.8,177.7 398.3,195.6" fill="#f3a447"/>
+<line x1="295" y1="268" x2="399.1" y2="259.3" stroke="#f3a447" stroke-width="3" stroke-linecap="round"/>
+<polygon points="415.0,258.0 398.3,250.4 399.8,268.3" fill="#f3a447"/>
+<rect x="800" y="140" width="140" height="56" rx="10" fill="#fc7400" stroke="none" stroke-width="2"/>
+<text x="870" y="177" font-size="22" fill="#12121a" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">以上で！</text>
+<text x="870" y="225" font-size="17" fill="#8b8ba0" text-anchor="middle" font-weight="normal" font-family="SF Mono, Menlo, monospace">.first / .each</text>
+<line x1="765" y1="168" x2="776.0" y2="168.0" stroke="#fc7400" stroke-width="4" stroke-linecap="round"/>
+<polygon points="792.0,168.0 776.0,159.0 776.0,177.0" fill="#fc7400"/>
+<line x1="945" y1="168" x2="969.0" y2="168.0" stroke="#fc7400" stroke-width="4" stroke-linecap="round"/>
+<polygon points="985.0,168.0 969.0,159.0 969.0,177.0" fill="#fc7400"/>
+<path d="M990,116 v108 a50.0,16 0 0 0 100,0 v-108" fill="#1a1a24" stroke="#6fb3e0" stroke-width="3"/>
+<ellipse cx="1040.0" cy="116" rx="50.0" ry="16" fill="#1a1a24" stroke="#6fb3e0" stroke-width="3"/>
+<text x="1040.0" y="182.0" font-size="24" fill="#f2ece5" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">厨房</text>
+<text x="870" y="300" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">欄の順番どおりに</text>
+<text x="870" y="330" font-size="20" fill="#f2ece5" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">SQLになる</text>
+</svg>

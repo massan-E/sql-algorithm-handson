@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300">
+<rect x="20" y="20" width="460" height="260" rx="10" fill="#1a1a24" stroke="#fc7400" stroke-width="3"/>
+<text x="250" y="58" font-size="22" fill="#fc7400" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">索引 (board_id, is_read)</text>
+<rect x="50" y="80" width="400" height="46" rx="6" fill="#2a1d10" stroke="#fc7400" stroke-width="2"/>
+<text x="70" y="112" font-size="19" fill="#f2ece5" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">(2, false) → id, id, id …</text>
+<rect x="50" y="140" width="400" height="46" rx="6" fill="#15151d" stroke="#3a3a52" stroke-width="2"/>
+<text x="70" y="172" font-size="19" fill="#f2ece5" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">(2, true)  → id, id, id …</text>
+<rect x="50" y="200" width="400" height="46" rx="6" fill="#15151d" stroke="#3a3a52" stroke-width="2"/>
+<text x="70" y="232" font-size="19" fill="#f2ece5" text-anchor="start" font-weight="normal" font-family="SF Mono, Menlo, monospace">(3, false) → id, id, id …</text>
+<rect x="620" y="20" width="460" height="260" rx="10" fill="none" stroke="#2a2a3a" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="850" y="58" font-size="22" fill="#5a5a70" text-anchor="middle" font-weight="bold" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">本文（テーブル）</text>
+<rect x="650" y="80" width="400" height="28" rx="4" fill="#15151d" stroke="#2a2a3a" stroke-width="2"/>
+<rect x="650" y="118" width="400" height="28" rx="4" fill="#15151d" stroke="#2a2a3a" stroke-width="2"/>
+<rect x="650" y="156" width="400" height="28" rx="4" fill="#15151d" stroke="#2a2a3a" stroke-width="2"/>
+<rect x="650" y="194" width="400" height="28" rx="4" fill="#15151d" stroke="#2a2a3a" stroke-width="2"/>
+<rect x="650" y="232" width="400" height="28" rx="4" fill="#15151d" stroke="#2a2a3a" stroke-width="2"/>
+<text x="850" y="272" font-size="20" fill="#8b8ba0" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">開かなくていい</text>
+<line x1="490" y1="103" x2="584.0" y2="103.0" stroke="#9ece6a" stroke-width="3" stroke-linecap="round"/>
+<polygon points="600.0,103.0 584.0,94.0 584.0,112.0" fill="#9ece6a"/>
+<text x="545" y="150" font-size="19" fill="#9ece6a" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">索引だけで</text>
+<text x="545" y="176" font-size="19" fill="#9ece6a" text-anchor="middle" font-weight="normal" font-family="Hiragino Sans, Hiragino Kaku Gothic ProN, sans-serif">数えられる</text>
+</svg>
