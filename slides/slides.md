@@ -120,6 +120,8 @@ Board.find(2).comments.sample
 
 この流れをまとめたのが、2024年に書いたQiita記事です。
 
+https://qiita.com/massan-E/items/dcedbda67c330da9ba2c
+
 ---
 
 <!-- _class: lead -->

@@ -15,6 +15,10 @@ ActiveRecord や AI が書いてくれるコードを「なんか遅そう」と
 
 元ファイル（[Marp](https://marp.app/) 形式）は `slides/slides.md` です。
 
+このハンズオンのもとになった Qiita 記事はこちらです。
+
+**[https://qiita.com/massan-E/items/dcedbda67c330da9ba2c](https://qiita.com/massan-E/items/dcedbda67c330da9ba2c)**
+
 ## 必要なもの
 
 - Docker Desktop（起動しておいてください。Settings > Resources の Memory は 4GB 以上）
